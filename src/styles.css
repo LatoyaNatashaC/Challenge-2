@@ -22,6 +22,7 @@ header h2 {
   color: var(--header-color);
   font-size: 96px;
   font-family: var(--header-font-family);
+  font-weight: 700;
 }
 header h3 {
   color: var(--header-color);
@@ -35,4 +36,23 @@ header h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 25px;
+  }
+  header h2 {
+    font-size: 40px;
+  }
+  header h3 {
+    font-size: 15px;
+  }
+  .btn-theme {
+    font-size: 13px;
+    line-height: 15px;
+    padding: 10px 15px;
+  }
 }
