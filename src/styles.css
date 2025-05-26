@@ -9,17 +9,27 @@ header {
   background-image: url("../images/TAL-dubai-DUBAITG1123-17390625954c4be3902a440d8fffde67.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 260px 0;
 }
-h1 {
+header h1 {
   color: var(--header-color);
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-h2 {
+header h2 {
   color: var(--header-color);
   font-size: 96px;
 }
-h3 {
+header h3 {
   color: var(--header-color);
   letter-spacing: 3px;
+  font-size: 36px;
+}
+.btn-theme {
+  background: #bd7546;
+  border-radius: 4px;
+  color: #fcfefe;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
