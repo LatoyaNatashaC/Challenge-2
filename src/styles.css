@@ -40,6 +40,10 @@ header h3 {
 p {
   font-size: 20px;
 }
+.carousel-caption {
+  color: #ec447c;
+  font-family: var(--default-font-family);
+}
 @media (max-width: 800px) {
   header {
     padding: 60px 0;
