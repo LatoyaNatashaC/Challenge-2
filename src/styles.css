@@ -4,6 +4,7 @@
   --default-font-family: "Ancizar Serif", serif;
   --mobile-font-size: 13px;
   --paragraph-color: #fcfefe;
+  --font-family-third: "Poppins", sans-serif;
 }
 body {
   background: linear-gradient(
@@ -23,6 +24,7 @@ header h1 {
   color: var(--header-color);
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-family: var(--font-family-third);
 }
 header h2 {
   color: var(--header-color);
@@ -34,6 +36,7 @@ header h3 {
   color: var(--header-color);
   letter-spacing: 3px;
   font-size: 36px;
+  font-family: var (--font-family-third);
 }
 .btn-theme {
   background: #bd7546;
@@ -42,6 +45,7 @@ header h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+  font-family: var(--font-family-third);
 }
 p {
   font-size: 20px;
